@@ -1,0 +1,38 @@
+﻿;Name;Country;City;Address;Latitude;Longitude;Research? ;Specialized in EOL? ;Temporary?;Public?;Independent?;Since;University?;Which University;Notes;Website
+1;End-of-Life Research Program;AU;Brisbane;2 George St, Brisbane City QLD 4000, Australia;-27.47760041;153.0277366;Yes;No;No;No;Yes;;Yes;Queensland University of Technology;;https://research.qut.edu.au/achlr/research-expertise/end-of-life/?_gl=1*g30ukd*_ga*MTE4ODU3MDg3MS4xNzY5MjQzODA0*_ga_S1B55LT1H8*czE3NjkyNDM4MDMkbzEkZzAkdDE3NjkyNDM4MDMkajYwJGwwJGgw 
+2;Bureau de l'éthique clinique;CA;Montreal;2910 Edouard Montpetit Blvd, Montreal, Quebec H3T 1J7, Canada;45.50310762;-73.61891049;Yes;No;No;No;Yes;;Yes;Université de Montreal;;https://ethiqueclinique.umontreal.ca/recherche/reseau-chercheurs/marie-eve-bouthillier/ 
+3;Centre National Fin de Vie Soins Palliatifs;FR;Paris;35, rue du Plateau 75019 PARIS;48.87822521;2.382443311;Yes;Yes;No;Yes;Yes;2016;No;NA;;https://www.parlons-fin-de-vie.fr/ 
+4;Service de soins palliatifs et de support;CH;Lausanne;"Av. Pierre-Decker 5
+CH - 1011 Lausanne";46.52708922;6.643451553;Yes;Yes;No;Yes;Yes;;Yes;Université de Lausanne;;https://www.chuv.ch/fr/soins-palliatifs/spl-home 
+5;International Observatory on End of Life Care (IOELC);UK;Lancaster;"Lancaster University
+Lancaster
+LA1 4YW
+United Kingdom";54.01082801;-2.787144056;Yes;Yse;No;No;Yes;;Yes;Lancaster University;;https://www.lancaster.ac.uk/health-and-medicine/research/ioelc/ 
+6;Bruyère Health Research Institute XXX;CA;Ottawa;85 Primrose Ave, Ottawa, ON K1R 6M1, Canada;45.42755612;-75.70181376;Yes;No;No;No;Yes;;Yes;Ottawa University;;https://www.bruyere.org/ 
+7;Attitudes towards End-of-Life ISsues in Italy: the ELISI project;IT;Bologna;Via Zamboni,  33 - 40126   Bologna;44.49731064;11.35252767;Yes;Yes;Yes;Yes;Yes;;Yes;Università di Bologna;;https://www.unibo.it/en/research/projects-and-initiatives/prin/19069/1906930542/30679 
+8;Palliativmedizinische Abteilung;DE;Erlangen;Maximilianspl. 2, 91054 Erlangen, Germania;49.60099209;11.01037074;No;Yes;No;No;Yes;;Yes;Friedrich-Alexander-Universität;;https://www.palliativmedizin.uk-erlangen.de/ 
+9;Soins palliatifs;FR;Rouen;37 Bd Gambetta, 76000 Rouen, Francia;49.43961502;1.108381941;No;Yes;No;No;Yes;;Yes;Université de Rouen;;https://www.chu-rouen.fr/services/medecine-palliative/ 
+10;Plateforme Nationle pour la recherche en fin de vie;FR;Besançon;"1 rue Claude Goudimel
+25030 Besançon Cedex";47.24070693;6.022701755;Yes;Yes;No;Yes;Yes;;Yes;Marie and Louis Pasteur University;;https://www.plateforme-recherche-findevie.fr/ 
+11;Réseau québécois de recherche en soins palliatifs et de fin de vie (RQSPAL);CA;Laval;"Hôpital de l'Enfant-Jésus
+Centre intégré de cancérologie du CHU de Québec – Université Laval
+1401, 18e rue
+Québec (Québec) G1J 1Z4";46.83692953;-71.22537497;Yes;Yes;No;Yes;Yes;;Yes;Laval University;;https://www.recherchesoinspalliatifs.ca/en/welcome/ 
+12;Endo of Life Care Research Group;BE;Ghent + Brussels;"Campus VUB Jette
+Building K, 1st floor
+Laarbeeklaan 103
+1090 Brussels
+Belgium";50.88730747;4.306030176;Yes;Yes;No;No;Yes;;Yes;Ghent university and Vrije University Brussels;;https://www.endoflifecare.be/
+13;Consortium interdisciplinaire de recherche sur l’aide médicale à mourir (CIRAMM);CA;Montreal;2910 Edouard Montpetit Blvd, Montreal, Quebec H3T 1J7, Canada;45.50314522;-73.61889976;Yes;Yes;Yes;No;Yes;;Yes;Université de Montréal;;https://frq.gouv.qc.ca/projet/mieux-comprendre-le-recours-a-laide-medicale-a-mourir-en-contexte-quebecois/
+14;INEDyTO;SP;Granada;Av. del Hospicio, 1, Albaicín, 18012 Granada, Spagna;37.18402234;-3.600421504;Yes;Yes;No;No;Yes;;No;NA;;https://www.inedyto.com/ 
+15;Department for Ethics and Law in Medicine;AT;Wien;University of Vienna, Universitätsring 1, 1010 Vienna;48.21326411;16.36008258;Yes;No;No;No;Yes;;Yes;University of Vienna;;https://www.ierm.at/en/
+16;Assisted Dying Research Network;NZ;Wellington;33 Bunny Street, Pipitea, Wellington 6011, Nuova Zelanda;-41.27934407;174.7784922;Yes;Yes;Yes;Yes;Yes;;Yes;Victoria University of Wellington;;https://www.wgtn.ac.nz/assisted-dying 
+17;Academy of Aid-in-Dying Medicine;US;Berkeley;Berkeley, California, USA;37.86887117;-122.3071607;No;Yes;Yes;No;Yes;;No;NA;;https://www.aadm.org/ 
+18;Canadian Association of MAiD Assessors and Providers (CAMAP);CA;Fort St Victoria;326 – 1964 Fort St, Victoria, British Columbia V8R 6R3, Canada;48.43246841;-123.3235163;No;Yes;No;No;Yes;;No;NA;;https://camapcanada.ca/ 
+19;Center for Research on End of Life Care;US;New York;"525 E 68th St, Box 39,
+1414 Baker Pavilion
+New York, NY 10065";40.7650446;-73.95484709;Yes;Yes;No;Yes;Yes;;No;NA;;https://endoflife.weill.cornell.edu/ 
+20;Palliative Care Education programs;US;Denver;13001 E 17th Pl, Aurora, CO 80045, Stati Uniti;39.74566176;-104.8375984;Yes;Yes;No;No;Yes;;Yes;University of Colorado;;https://www.cuanschutz.edu/graduate-programs/palliative-care/home 
+21;Hastings Center for Bioethics;US;Garrison;"21 Malcolm Gordon Road
+Garrison, NY 10524";41.39242;-73.93616769;No;No;No;No;Yes;;No;NA;;https://www.thehastingscenter.org/ 
+22;Compassion and Choices;US;Denver;8156 S Wadsworth Blvd e 162, Littleton, CO 80128, Stati Uniti;39.56855363;-105.0811371;Yes;Yes;No;No;Yes;;No;NA;;https://compassionandchoices.org/ 
