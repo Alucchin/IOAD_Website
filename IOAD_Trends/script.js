@@ -140,7 +140,7 @@ display:true,
 text:"Proportion of total deaths"
 },
 
-type: 'logarithmic', // Comment/Uncomment to use logarithmic scale
+// type: 'logarithmic', // Comment/Uncomment to use logarithmic scale
 ticks: {
     maxTicksLimit: 10,
     callback: function(value) {

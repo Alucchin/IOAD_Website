@@ -51,8 +51,8 @@ const marker = L.circleMarker(
 [lat + jitter(), lon + jitter()],
 {
 radius:6,
-color:"#2ecc71",
-fillColor:"#2ecc71",
+color:"#cc2e2e",
+fillColor:"#cc2e2e",
 fillOpacity:0.9
 }).addTo(map);
 
@@ -60,14 +60,13 @@ const websiteHTML = website
   ? `<br><a href="${website}" target="_blank">Visit website</a>`
   : "";
 
-// Include research type(s) from the CSV (last two columns)
-const researchTypes = [row.type_research, row.type_research_2]
-  .filter(Boolean)
-  .map(s => s.trim())
-  .filter(Boolean);
-const researchHTML = researchTypes.length
-  ? `<br><b>Research focus:</b> ${researchTypes.join(' | ')}`
-  : "";
+// Show both research fields from the CSV
+const areaOfResearch = row.type_research_2 ? row.type_research_2.trim() : "";
+const researchType = row.type_research ? row.type_research.trim() : "";
+
+const researchHTML = `
+  ${areaOfResearch ? `<br><b>Area of research:</b> ${areaOfResearch}` : ""}
+  ${researchType ? `<br><b>Research type:</b> ${researchType}` : ""}`;
 
 marker.bindPopup(
   `<b>${name}</b><br>${country}${researchHTML}${websiteHTML}`
