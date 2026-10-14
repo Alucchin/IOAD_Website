@@ -8,7 +8,7 @@ async function loadCSV(){
     const header = rows[0]
     const years = header.slice(2, -1)
 
-    const countries = new Set()
+    const countryValues = new Map()
 
     for(let i = 1; i < rows.length; i++){
         const row = rows[i]
@@ -17,10 +17,22 @@ async function loadCSV(){
         if(!fullLabel) continue
 
         const country = fullLabel.replace(/ \(.*\)$/, '')
-        countries.add(country)
+        if(!countryValues.has(country)){
+            countryValues.set(country, Array(years.length).fill(null))
+        }
+
+        const totals = countryValues.get(country)
+        row.slice(2, -1).forEach((value, yearIndex) => {
+            if(value.trim() === '') return
+
+            const number = Number(value)
+            if(!Number.isFinite(number)) return
+
+            totals[yearIndex] = (totals[yearIndex] ?? 0) + number
+        })
     }
 
-    const countryList = Array.from(countries)
+    const countryList = Array.from(countryValues.keys())
     const countryColors = generateColors(countryList.length)
     const countryColorMap = {}
 
@@ -30,25 +42,10 @@ async function loadCSV(){
 
     const datasets = []
 
-    for(let i = 1; i < rows.length; i++){
-
-        const row = rows[i]
-        const fullLabel = row[1]
-
-        if(!fullLabel) continue
-
-        const country = fullLabel.replace(/ \(.*\)$/, '')
-        const isAssisted = fullLabel.includes('Assisted Suicide')
-        const borderDash = isAssisted ? [5, 5] : []
-
-        const values = row.slice(2, -1).map(v => {
-            let num = Number(v)
-            return num === 0 || isNaN(num) ? null : num
-        })
-
+    countryList.forEach(country => {
         datasets.push({
-            label: fullLabel,
-            data: values,
+            label: country,
+            data: countryValues.get(country).map(value => value === 0 ? null : value),
             borderColor: countryColorMap[country],
             backgroundColor: countryColorMap[country],
             borderWidth: 2,
@@ -56,10 +53,9 @@ async function loadCSV(){
             pointHoverRadius: 7,
             pointHoverBorderWidth: 3,
             hoverBorderWidth: 4,
-            borderDash: borderDash,
             tension: 0.25
         })
-    }
+    })
 
     createChart(years, datasets)
 }
